@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: unset !important;
+}
+
+nav{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(61, 60, 65);
+}
+
+.navbar .nav-left img {
+  width: 200px !important ;
+  cursor: pointer;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.nav-left{
+  font-size: 30px;
+}
+
+
+.nav-right {
+  display: flex;
+  gap: 50px;
+}
+
+.ggg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 72vh;
+}
+
+
+.nav-right  a{
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.for{
+  background-color: rgb(102, 102, 102);
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 27px;
+  padding: 10px 50px;
+}
+
+.ab{
+  width: 100%;
+  height: max-content;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  padding: 300px 50px;
+}
+
+.parent{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+padding: 20px 100px;
+gap: 20px;
+}
+
+.card{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.card1{
+  width: 100% !important;
+  border: none;
+  padding: 12px 10px;
+  color: rgb(117, 117, 117);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.card1 img{
+height: 200px !important;
+}
+
+.parent1{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 20px 100px;
+  margin: 20px 0;
+  gap: 20px;
+  background-color: rgb(146, 146, 146);
+  
+  }
+
+  button{
+    width: 90px;
+    height: 30px;
+    padding: 0 4px;
+    background-color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+  }
+
+  .card2 img{
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: contain;
+  }
+
+  .card2{
+   text-align: center;
+   padding-top: 100px;
+   min-height: 70vh;
+  }
+
+
